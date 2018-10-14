@@ -1,0 +1,14 @@
+sudo: required
+language: minimal
+services:
+- docker
+install: docker-compose build
+jobs:
+  include:
+  - stage: test
+  - stage: deploy
+    if: branch = master
+    script: ./drun_app python main.py
+env:
+  global:
+    secure: C04ZnzpOpGoRDAgpnAfMgVxBmrroXx9t70xyvHFEmi9D524VZqSPZicZDOea8NXatZPZuTYFL/pqy7aIPL053VgmcpYavNPsiDMfuAGUCUWAOdkUsCnvtR3vH3F6n9hqsLgGoj4vmXgjKDfDMnvlpfAssefUSlxCw4lOBCgAyu+7u/tkZ+KUqKXD6JWl3nOqZ0ZB183X/MUrwZPmM0qctFNowUDKIdogqGRWYJk/h8u+GiRNOmSZXg7WbdML8xmastVpskOfySm4oesNsthl4y0Wg18o8PRFI/BFdZXabg8kEX3eLVs+DqlY8CL6yS7L8Kt1oYrplYg2EcrhXJMjaHg9ddxOHRUf5t94AxEcNangkzld8msQi0ecxd1iyXekSbcD0iOc4HnDdeErGIXCm4+D0Ubn1LSPP2T+OOV0tui+bA68iwsBNRIfh0ylIFPwxkNrEggO7iyIfqH/jOIsFFD0FkdOrAvTCBZhJhgdaJ40hEsTFcYVOnTUCAR45Vwjl4JjIsG7rj1Ps2QEeMfq6zLDtRDLetw7izBgzgcU71cXBM6kuCWV06b7DP2DRXntyxy+JxN1vGfqYHwWO2OyWsGDI5zHjwBGugZ/TrU88zPYc8Bp60PZSKWiBUlbj1GZ5nU2ZHLRv6w2x3w5GL7nOa0B5QxYiTUhdoF98Yb3vqg=

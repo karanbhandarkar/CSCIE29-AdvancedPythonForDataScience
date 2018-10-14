@@ -1,0 +1,9 @@
+actionid: py36
+msg: getenv
+cmdargs: ['/opt/rh/rh-python36/root/usr/bin/python3', '-m', 'virtualenv', '--python', '/opt/rh/rh-python36/root/usr/bin/python3.6', 'py36']
+
+Using base prefix '/opt/rh/rh-python36/root/usr'
+New python executable in /home/zzhao/github_classroom/pset1/pset_utils-zhenyuzhao/.tox/py36/bin/python3.6
+Also creating executable in /home/zzhao/github_classroom/pset1/pset_utils-zhenyuzhao/.tox/py36/bin/python
+Installing setuptools, pip, wheel...done.
+Running virtualenv with interpreter /opt/rh/rh-python36/root/usr/bin/python3.6

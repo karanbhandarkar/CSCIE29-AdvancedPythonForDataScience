@@ -1,0 +1,119 @@
+actionid: tox
+msg: packaging
+cmdargs: ['/opt/rh/rh-python36/root/usr/bin/python3', local('/home/zzhao/github_classroom/pset1/pset_utils-zhenyuzhao/setup.py'), 'sdist', '--formats=zip', '--dist-dir', local('/home/zzhao/github_classroom/pset1/pset_utils-zhenyuzhao/.tox/dist')]
+
+running sdist
+running egg_info
+creating pset_utils.egg-info
+writing pset_utils.egg-info/PKG-INFO
+writing dependency_links to pset_utils.egg-info/dependency_links.txt
+writing top-level names to pset_utils.egg-info/top_level.txt
+writing manifest file 'pset_utils.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no files found matching 'LICENSE'
+warning: no previously-included files matching '__pycache__' found under directory '*'
+warning: no files found matching '*.jpg' under directory 'docs'
+warning: no files found matching '*.png' under directory 'docs'
+warning: no files found matching '*.gif' under directory 'docs'
+writing manifest file 'pset_utils.egg-info/SOURCES.txt'
+running check
+creating pset_utils-2.0
+creating pset_utils-2.0/.github
+creating pset_utils-2.0/docs
+creating pset_utils-2.0/pset_utils
+creating pset_utils-2.0/pset_utils.egg-info
+creating pset_utils-2.0/pset_utils/hashing
+creating pset_utils-2.0/pset_utils/io
+creating pset_utils-2.0/tests
+copying files to pset_utils-2.0...
+copying .editorconfig -> pset_utils-2.0
+copying .gitignore -> pset_utils-2.0
+copying .travis.yml -> pset_utils-2.0
+copying AUTHORS.rst -> pset_utils-2.0
+copying CONTRIBUTING.rst -> pset_utils-2.0
+copying Dockerfile -> pset_utils-2.0
+copying HISTORY.rst -> pset_utils-2.0
+copying MANIFEST.in -> pset_utils-2.0
+copying Makefile -> pset_utils-2.0
+copying Pipfile -> pset_utils-2.0
+copying Pipfile.lock -> pset_utils-2.0
+copying README.md -> pset_utils-2.0
+copying README.rst -> pset_utils-2.0
+copying docker-compose.yml -> pset_utils-2.0
+copying drun_app -> pset_utils-2.0
+copying main.py -> pset_utils-2.0
+copying requirements_dev.txt -> pset_utils-2.0
+copying setup.cfg -> pset_utils-2.0
+copying setup.py -> pset_utils-2.0
+copying tox.ini -> pset_utils-2.0
+copying .github/ISSUE_TEMPLATE.md -> pset_utils-2.0/.github
+copying docs/Makefile -> pset_utils-2.0/docs
+copying docs/authors.rst -> pset_utils-2.0/docs
+copying docs/conf.py -> pset_utils-2.0/docs
+copying docs/contributing.rst -> pset_utils-2.0/docs
+copying docs/history.rst -> pset_utils-2.0/docs
+copying docs/index.rst -> pset_utils-2.0/docs
+copying docs/installation.rst -> pset_utils-2.0/docs
+copying docs/make.bat -> pset_utils-2.0/docs
+copying docs/readme.rst -> pset_utils-2.0/docs
+copying docs/usage.rst -> pset_utils-2.0/docs
+copying pset_utils/__init__.py -> pset_utils-2.0/pset_utils
+copying pset_utils.egg-info/PKG-INFO -> pset_utils-2.0/pset_utils.egg-info
+copying pset_utils.egg-info/SOURCES.txt -> pset_utils-2.0/pset_utils.egg-info
+copying pset_utils.egg-info/dependency_links.txt -> pset_utils-2.0/pset_utils.egg-info
+copying pset_utils.egg-info/not-zip-safe -> pset_utils-2.0/pset_utils.egg-info
+copying pset_utils.egg-info/top_level.txt -> pset_utils-2.0/pset_utils.egg-info
+copying pset_utils/hashing/__init__.py -> pset_utils-2.0/pset_utils/hashing
+copying pset_utils/hashing/test_hashing.py -> pset_utils-2.0/pset_utils/hashing
+copying pset_utils/io/__init__.py -> pset_utils-2.0/pset_utils/io
+copying pset_utils/io/hello.txt -> pset_utils-2.0/pset_utils/io
+copying pset_utils/io/test_io.py -> pset_utils-2.0/pset_utils/io
+copying tests/test_pset_utils.py -> pset_utils-2.0/tests
+Writing pset_utils-2.0/setup.cfg
+creating .tox/dist
+creating '.tox/dist/pset_utils-2.0.zip' and adding 'pset_utils-2.0' to it
+adding 'pset_utils-2.0/.editorconfig'
+adding 'pset_utils-2.0/.gitignore'
+adding 'pset_utils-2.0/.travis.yml'
+adding 'pset_utils-2.0/AUTHORS.rst'
+adding 'pset_utils-2.0/CONTRIBUTING.rst'
+adding 'pset_utils-2.0/Dockerfile'
+adding 'pset_utils-2.0/HISTORY.rst'
+adding 'pset_utils-2.0/MANIFEST.in'
+adding 'pset_utils-2.0/Makefile'
+adding 'pset_utils-2.0/Pipfile'
+adding 'pset_utils-2.0/Pipfile.lock'
+adding 'pset_utils-2.0/README.md'
+adding 'pset_utils-2.0/README.rst'
+adding 'pset_utils-2.0/docker-compose.yml'
+adding 'pset_utils-2.0/drun_app'
+adding 'pset_utils-2.0/main.py'
+adding 'pset_utils-2.0/requirements_dev.txt'
+adding 'pset_utils-2.0/setup.cfg'
+adding 'pset_utils-2.0/setup.py'
+adding 'pset_utils-2.0/tox.ini'
+adding 'pset_utils-2.0/PKG-INFO'
+adding 'pset_utils-2.0/.github/ISSUE_TEMPLATE.md'
+adding 'pset_utils-2.0/docs/Makefile'
+adding 'pset_utils-2.0/docs/authors.rst'
+adding 'pset_utils-2.0/docs/conf.py'
+adding 'pset_utils-2.0/docs/contributing.rst'
+adding 'pset_utils-2.0/docs/history.rst'
+adding 'pset_utils-2.0/docs/index.rst'
+adding 'pset_utils-2.0/docs/installation.rst'
+adding 'pset_utils-2.0/docs/make.bat'
+adding 'pset_utils-2.0/docs/readme.rst'
+adding 'pset_utils-2.0/docs/usage.rst'
+adding 'pset_utils-2.0/pset_utils/__init__.py'
+adding 'pset_utils-2.0/pset_utils/hashing/__init__.py'
+adding 'pset_utils-2.0/pset_utils/hashing/test_hashing.py'
+adding 'pset_utils-2.0/pset_utils/io/__init__.py'
+adding 'pset_utils-2.0/pset_utils/io/hello.txt'
+adding 'pset_utils-2.0/pset_utils/io/test_io.py'
+adding 'pset_utils-2.0/pset_utils.egg-info/PKG-INFO'
+adding 'pset_utils-2.0/pset_utils.egg-info/SOURCES.txt'
+adding 'pset_utils-2.0/pset_utils.egg-info/dependency_links.txt'
+adding 'pset_utils-2.0/pset_utils.egg-info/not-zip-safe'
+adding 'pset_utils-2.0/pset_utils.egg-info/top_level.txt'
+adding 'pset_utils-2.0/tests/test_pset_utils.py'
+removing 'pset_utils-2.0' (and everything under it)

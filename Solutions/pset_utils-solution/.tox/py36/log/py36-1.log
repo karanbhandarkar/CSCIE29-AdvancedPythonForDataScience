@@ -1,0 +1,136 @@
+actionid: py36
+msg: getenv
+cmdargs: ['/home/zzhao/github_classroom/pset1/pset_utils-zhenyuzhao/.tox/py36/bin/pip', 'install', '-r/home/zzhao/github_classroom/pset1/pset_utils-zhenyuzhao/requirements_dev.txt']
+
+Requirement already satisfied: pip==9.0.1 in ./.tox/py36/lib/python3.6/site-packages (from -r /home/zzhao/github_classroom/pset1/pset_utils-zhenyuzhao/requirements_dev.txt (line 1))
+Collecting bumpversion==0.5.3 (from -r /home/zzhao/github_classroom/pset1/pset_utils-zhenyuzhao/requirements_dev.txt (line 2))
+  Cache entry deserialization failed, entry ignored
+  Cache entry deserialization failed, entry ignored
+  Downloading https://files.pythonhosted.org/packages/ad/34/49c914829066558ebd405a56647d3ee26856282b8b8c4cd2c0c8de40ff8e/bumpversion-0.5.3-py2.py3-none-any.whl
+Collecting wheel==0.30.0 (from -r /home/zzhao/github_classroom/pset1/pset_utils-zhenyuzhao/requirements_dev.txt (line 3))
+  Cache entry deserialization failed, entry ignored
+  Cache entry deserialization failed, entry ignored
+  Downloading https://files.pythonhosted.org/packages/0c/80/16a85b47702a1f47a63c104c91abdd0a6704ee8ae3b4ce4afc49bc39f9d9/wheel-0.30.0-py2.py3-none-any.whl (49kB)
+Collecting watchdog==0.8.3 (from -r /home/zzhao/github_classroom/pset1/pset_utils-zhenyuzhao/requirements_dev.txt (line 4))
+  Cache entry deserialization failed, entry ignored
+  Cache entry deserialization failed, entry ignored
+  Downloading https://files.pythonhosted.org/packages/54/7d/c7c0ad1e32b9f132075967fc353a244eb2b375a3d2f5b0ce612fd96e107e/watchdog-0.8.3.tar.gz (83kB)
+Collecting flake8==3.5.0 (from -r /home/zzhao/github_classroom/pset1/pset_utils-zhenyuzhao/requirements_dev.txt (line 5))
+  Cache entry deserialization failed, entry ignored
+  Cache entry deserialization failed, entry ignored
+  Downloading https://files.pythonhosted.org/packages/b9/dc/14e9d94c770b8c4ef584e906c7583e74864786a58d47de101f2767d50c0b/flake8-3.5.0-py2.py3-none-any.whl (69kB)
+Collecting tox==2.9.1 (from -r /home/zzhao/github_classroom/pset1/pset_utils-zhenyuzhao/requirements_dev.txt (line 6))
+  Cache entry deserialization failed, entry ignored
+  Cache entry deserialization failed, entry ignored
+  Downloading https://files.pythonhosted.org/packages/1d/4e/20c679f8c5948f7c48591fde33d442e716af66a31a88f5791850a75041eb/tox-2.9.1-py2.py3-none-any.whl (73kB)
+Collecting coverage==4.5.1 (from -r /home/zzhao/github_classroom/pset1/pset_utils-zhenyuzhao/requirements_dev.txt (line 7))
+  Cache entry deserialization failed, entry ignored
+  Cache entry deserialization failed, entry ignored
+  Downloading https://files.pythonhosted.org/packages/3d/a0/b12090c40e0b8196b973962ec71c1c541a6c04af58ba5ad85683b3de251a/coverage-4.5.1-cp36-cp36m-manylinux1_x86_64.whl (202kB)
+Collecting Sphinx==1.7.1 (from -r /home/zzhao/github_classroom/pset1/pset_utils-zhenyuzhao/requirements_dev.txt (line 8))
+  Cache entry deserialization failed, entry ignored
+  Cache entry deserialization failed, entry ignored
+  Downloading https://files.pythonhosted.org/packages/2a/85/078fd06b2524085229b1f317c59c6366573ba87e3579e9b8f1326e730a7f/Sphinx-1.7.1-py2.py3-none-any.whl (1.9MB)
+Collecting twine==1.10.0 (from -r /home/zzhao/github_classroom/pset1/pset_utils-zhenyuzhao/requirements_dev.txt (line 9))
+  Cache entry deserialization failed, entry ignored
+  Cache entry deserialization failed, entry ignored
+  Downloading https://files.pythonhosted.org/packages/4f/95/48cc7901ba6e63120bc0b7d1ba70b85cb9c1221be4bfa7b95d734e6d9504/twine-1.10.0-py2.py3-none-any.whl
+Collecting pytest==3.4.2 (from -r /home/zzhao/github_classroom/pset1/pset_utils-zhenyuzhao/requirements_dev.txt (line 11))
+  Cache entry deserialization failed, entry ignored
+  Cache entry deserialization failed, entry ignored
+  Downloading https://files.pythonhosted.org/packages/f1/5c/411ceafef3b5e5486d16f174db18dc26f49e7704dbf59ef488e95db47339/pytest-3.4.2-py2.py3-none-any.whl (189kB)
+Collecting pytest-runner==2.11.1 (from -r /home/zzhao/github_classroom/pset1/pset_utils-zhenyuzhao/requirements_dev.txt (line 12))
+  Cache entry deserialization failed, entry ignored
+  Cache entry deserialization failed, entry ignored
+  Downloading https://files.pythonhosted.org/packages/26/d4/9e25eb226ddc6d395a72e3a6a6dcdfea197c21a2c7fbcd6f94545effb04d/pytest_runner-2.11.1-py2.py3-none-any.whl
+Collecting PyYAML>=3.10 (from watchdog==0.8.3->-r /home/zzhao/github_classroom/pset1/pset_utils-zhenyuzhao/requirements_dev.txt (line 4))
+  Downloading https://files.pythonhosted.org/packages/9e/a3/1d13970c3f36777c583f136c136f804d70f500168edc1edea6daa7200769/PyYAML-3.13.tar.gz (270kB)
+Collecting argh>=0.24.1 (from watchdog==0.8.3->-r /home/zzhao/github_classroom/pset1/pset_utils-zhenyuzhao/requirements_dev.txt (line 4))
+  Cache entry deserialization failed, entry ignored
+  Cache entry deserialization failed, entry ignored
+  Downloading https://files.pythonhosted.org/packages/06/1c/e667a7126f0b84aaa1c56844337bf0ac12445d1beb9c8a6199a7314944bf/argh-0.26.2-py2.py3-none-any.whl
+Collecting pathtools>=0.1.1 (from watchdog==0.8.3->-r /home/zzhao/github_classroom/pset1/pset_utils-zhenyuzhao/requirements_dev.txt (line 4))
+  Cache entry deserialization failed, entry ignored
+  Cache entry deserialization failed, entry ignored
+  Downloading https://files.pythonhosted.org/packages/e7/7f/470d6fcdf23f9f3518f6b0b76be9df16dcc8630ad409947f8be2eb0ed13a/pathtools-0.1.2.tar.gz
+Collecting mccabe<0.7.0,>=0.6.0 (from flake8==3.5.0->-r /home/zzhao/github_classroom/pset1/pset_utils-zhenyuzhao/requirements_dev.txt (line 5))
+  Cache entry deserialization failed, entry ignored
+  Cache entry deserialization failed, entry ignored
+  Downloading https://files.pythonhosted.org/packages/87/89/479dc97e18549e21354893e4ee4ef36db1d237534982482c3681ee6e7b57/mccabe-0.6.1-py2.py3-none-any.whl
+Collecting pycodestyle<2.4.0,>=2.0.0 (from flake8==3.5.0->-r /home/zzhao/github_classroom/pset1/pset_utils-zhenyuzhao/requirements_dev.txt (line 5))
+  Cache entry deserialization failed, entry ignored
+  Cache entry deserialization failed, entry ignored
+  Downloading https://files.pythonhosted.org/packages/e4/81/78fe51eb4038d1388b7217dd63770b0f428370207125047312886c923b26/pycodestyle-2.3.1-py2.py3-none-any.whl (45kB)
+Collecting pyflakes<1.7.0,>=1.5.0 (from flake8==3.5.0->-r /home/zzhao/github_classroom/pset1/pset_utils-zhenyuzhao/requirements_dev.txt (line 5))
+  Cache entry deserialization failed, entry ignored
+  Cache entry deserialization failed, entry ignored
+  Downloading https://files.pythonhosted.org/packages/d7/40/733bcc64da3161ae4122c11e88269f276358ca29335468005cb0ee538665/pyflakes-1.6.0-py2.py3-none-any.whl (227kB)
+Collecting six (from tox==2.9.1->-r /home/zzhao/github_classroom/pset1/pset_utils-zhenyuzhao/requirements_dev.txt (line 6))
+  Downloading https://files.pythonhosted.org/packages/67/4b/141a581104b1f6397bfa78ac9d43d8ad29a7ca43ea90a2d863fe3056e86a/six-1.11.0-py2.py3-none-any.whl
+Collecting pluggy<1.0,>=0.3.0 (from tox==2.9.1->-r /home/zzhao/github_classroom/pset1/pset_utils-zhenyuzhao/requirements_dev.txt (line 6))
+  Downloading https://files.pythonhosted.org/packages/f5/f1/5a93c118663896d83f7bcbfb7f657ce1d0c0d617e6b4a443a53abcc658ca/pluggy-0.7.1-py2.py3-none-any.whl
+Collecting virtualenv>=1.11.2; python_version != "3.2" (from tox==2.9.1->-r /home/zzhao/github_classroom/pset1/pset_utils-zhenyuzhao/requirements_dev.txt (line 6))
+  Downloading https://files.pythonhosted.org/packages/b6/30/96a02b2287098b23b875bc8c2f58071c35d2efe84f747b64d523721dc2b5/virtualenv-16.0.0-py2.py3-none-any.whl (1.9MB)
+Collecting py>=1.4.17 (from tox==2.9.1->-r /home/zzhao/github_classroom/pset1/pset_utils-zhenyuzhao/requirements_dev.txt (line 6))
+  Downloading https://files.pythonhosted.org/packages/c8/47/d179b80ab1dc1bfd46a0c87e391be47e6c7ef5831a9c138c5c49d1756288/py-1.6.0-py2.py3-none-any.whl (83kB)
+Collecting babel!=2.0,>=1.3 (from Sphinx==1.7.1->-r /home/zzhao/github_classroom/pset1/pset_utils-zhenyuzhao/requirements_dev.txt (line 8))
+  Cache entry deserialization failed, entry ignored
+  Cache entry deserialization failed, entry ignored
+  Downloading https://files.pythonhosted.org/packages/b8/ad/c6f60602d3ee3d92fbed87675b6fb6a6f9a38c223343ababdb44ba201f10/Babel-2.6.0-py2.py3-none-any.whl (8.1MB)
+Collecting Jinja2>=2.3 (from Sphinx==1.7.1->-r /home/zzhao/github_classroom/pset1/pset_utils-zhenyuzhao/requirements_dev.txt (line 8))
+  Downloading https://files.pythonhosted.org/packages/7f/ff/ae64bacdfc95f27a016a7bed8e8686763ba4d277a78ca76f32659220a731/Jinja2-2.10-py2.py3-none-any.whl (126kB)
+Collecting Pygments>=2.0 (from Sphinx==1.7.1->-r /home/zzhao/github_classroom/pset1/pset_utils-zhenyuzhao/requirements_dev.txt (line 8))
+  Cache entry deserialization failed, entry ignored
+  Cache entry deserialization failed, entry ignored
+  Downloading https://files.pythonhosted.org/packages/02/ee/b6e02dc6529e82b75bb06823ff7d005b141037cb1416b10c6f00fc419dca/Pygments-2.2.0-py2.py3-none-any.whl (841kB)
+Collecting snowballstemmer>=1.1 (from Sphinx==1.7.1->-r /home/zzhao/github_classroom/pset1/pset_utils-zhenyuzhao/requirements_dev.txt (line 8))
+  Cache entry deserialization failed, entry ignored
+  Cache entry deserialization failed, entry ignored
+  Downloading https://files.pythonhosted.org/packages/d4/6c/8a935e2c7b54a37714656d753e4187ee0631988184ed50c0cf6476858566/snowballstemmer-1.2.1-py2.py3-none-any.whl (64kB)
+Collecting alabaster<0.8,>=0.7 (from Sphinx==1.7.1->-r /home/zzhao/github_classroom/pset1/pset_utils-zhenyuzhao/requirements_dev.txt (line 8))
+  Cache entry deserialization failed, entry ignored
+  Cache entry deserialization failed, entry ignored
+  Downloading https://files.pythonhosted.org/packages/6e/71/c3648cc2f675063dbe2d669004a59e4a5120172713a1de3c3b14144d4b31/alabaster-0.7.11-py2.py3-none-any.whl
+Collecting requests>=2.0.0 (from Sphinx==1.7.1->-r /home/zzhao/github_classroom/pset1/pset_utils-zhenyuzhao/requirements_dev.txt (line 8))
+  Downloading https://files.pythonhosted.org/packages/65/47/7e02164a2a3db50ed6d8a6ab1d6d60b69c4c3fdf57a284257925dfc12bda/requests-2.19.1-py2.py3-none-any.whl (91kB)
+Collecting sphinxcontrib-websupport (from Sphinx==1.7.1->-r /home/zzhao/github_classroom/pset1/pset_utils-zhenyuzhao/requirements_dev.txt (line 8))
+  Cache entry deserialization failed, entry ignored
+  Cache entry deserialization failed, entry ignored
+  Downloading https://files.pythonhosted.org/packages/52/69/3c2fbdc3702358c5b34ee25e387b24838597ef099761fc9a42c166796e8f/sphinxcontrib_websupport-1.1.0-py2.py3-none-any.whl
+Collecting imagesize (from Sphinx==1.7.1->-r /home/zzhao/github_classroom/pset1/pset_utils-zhenyuzhao/requirements_dev.txt (line 8))
+  Cache entry deserialization failed, entry ignored
+  Cache entry deserialization failed, entry ignored
+  Downloading https://files.pythonhosted.org/packages/fc/b6/aef66b4c52a6ad6ac18cf6ebc5731ed06d8c9ae4d3b2d9951f261150be67/imagesize-1.1.0-py2.py3-none-any.whl
+Requirement already satisfied: setuptools in ./.tox/py36/lib/python3.6/site-packages (from Sphinx==1.7.1->-r /home/zzhao/github_classroom/pset1/pset_utils-zhenyuzhao/requirements_dev.txt (line 8))
+Collecting packaging (from Sphinx==1.7.1->-r /home/zzhao/github_classroom/pset1/pset_utils-zhenyuzhao/requirements_dev.txt (line 8))
+  Cache entry deserialization failed, entry ignored
+  Downloading https://files.pythonhosted.org/packages/89/d1/92e6df2e503a69df9faab187c684585f0136662c12bb1f36901d426f3fab/packaging-18.0-py2.py3-none-any.whl
+Collecting docutils>=0.11 (from Sphinx==1.7.1->-r /home/zzhao/github_classroom/pset1/pset_utils-zhenyuzhao/requirements_dev.txt (line 8))
+  Cache entry deserialization failed, entry ignored
+  Cache entry deserialization failed, entry ignored
+  Downloading https://files.pythonhosted.org/packages/36/fa/08e9e6e0e3cbd1d362c3bbee8d01d0aedb2155c4ac112b19ef3cae8eed8d/docutils-0.14-py3-none-any.whl (543kB)
+Collecting requests-toolbelt>=0.8.0 (from twine==1.10.0->-r /home/zzhao/github_classroom/pset1/pset_utils-zhenyuzhao/requirements_dev.txt (line 9))
+  Cache entry deserialization failed, entry ignored
+  Cache entry deserialization failed, entry ignored
+  Downloading https://files.pythonhosted.org/packages/97/8a/d710f792d6f6ecc089c5e55b66e66c3f2f35516a1ede5a8f54c13350ffb0/requests_toolbelt-0.8.0-py2.py3-none-any.whl (54kB)
+Collecting tqdm>=4.14 (from twine==1.10.0->-r /home/zzhao/github_classroom/pset1/pset_utils-zhenyuzhao/requirements_dev.txt (line 9))
+  Cache entry deserialization failed, entry ignored
+  Cache entry deserialization failed, entry ignored
+  Downloading https://files.pythonhosted.org/packages/79/43/19c9fee28110cd47f73e6bc596394337fe9f3e5825b4de402bbf30b3beb5/tqdm-4.26.0-py2.py3-none-any.whl (43kB)
+Collecting pkginfo>=1.0 (from twine==1.10.0->-r /home/zzhao/github_classroom/pset1/pset_utils-zhenyuzhao/requirements_dev.txt (line 9))
+  Cache entry deserialization failed, entry ignored
+  Cache entry deserialization failed, entry ignored
+  Downloading https://files.pythonhosted.org/packages/a3/fe/f32a48d48f40a7209be9825fba2566cab92364787cf37de2e08300dd6ce7/pkginfo-1.4.2-py2.py3-none-any.whl
+Collecting attrs>=17.2.0 (from pytest==3.4.2->-r /home/zzhao/github_classroom/pset1/pset_utils-zhenyuzhao/requirements_dev.txt (line 11))
+  Downloading https://files.pythonhosted.org/packages/3a/e1/5f9023cc983f1a628a8c2fd051ad19e76ff7b142a0faf329336f9a62a514/attrs-18.2.0-py2.py3-none-any.whl
+Collecting pytz>=0a (from babel!=2.0,>=1.3->Sphinx==1.7.1->-r /home/zzhao/github_classroom/pset1/pset_utils-zhenyuzhao/requirements_dev.txt (line 8))
+  Cache entry deserialization failed, entry ignored
+  Cache entry deserialization failed, entry ignored
+  Downloading https://files.pythonhosted.org/packages/30/4e/27c34b62430286c6d59177a0842ed90dc789ce5d1ed740887653b898779a/pytz-2018.5-py2.py3-none-any.whl (510kB)
+Collecting MarkupSafe>=0.23 (from Jinja2>=2.3->Sphinx==1.7.1->-r /home/zzhao/github_classroom/pset1/pset_utils-zhenyuzhao/requirements_dev.txt (line 8))
+  Downloading https://files.pythonhosted.org/packages/4d/de/32d741db316d8fdb7680822dd37001ef7a448255de9699ab4bfcbdf4172b/MarkupSafe-1.0.tar.gz
+Collecting certifi>=2017.4.17 (from requests>=2.0.0->Sphinx==1.7.1->-r /home/zzhao/github_classroom/pset1/pset_utils-zhenyuzhao/requirements_dev.txt (line 8))
+  Downloading https://files.pythonhosted.org/packages/df/f7/04fee6ac349e915b82171f8e23cee63644d83663b34c539f7a09aed18f9e/certifi-2018.8.24-py2.py3-none-any.whl (147kB)
+Operation cancelled by user
+You are using pip version 9.0.1, however version 18.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.

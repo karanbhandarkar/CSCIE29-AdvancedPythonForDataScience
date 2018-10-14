@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pset-utils = {editable = true, git = "https://github.com/csci-e-29/pset_utils-solution"}
+numpy = "*"
+panda = "*"
+pandas = "*"
+xlrd = "*"
+pudb = "*"
+pytest-cov = "*"
+setuptools-scm = "*"
+atomicwrites = "*"
+
+[dev-packages]
+pytest = "*"
+pytest-runner = "*"
+pytest-cov = "*"
+sphinx = "*"
+setuptools-scm = "*"
+
+[requires]
+python_version = "3.6"
